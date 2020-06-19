@@ -1,0 +1,12 @@
+GET http://localhost:8081/api/whiteboard/
+
+####
+
+POST http://localhost:8081/api/whiteboard/set/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "timestamp": "1592594202561",
+    "sessionID": "12",
+    "data": "here is some data"
+}
